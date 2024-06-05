@@ -1,0 +1,576 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.div {
+    background-color: #f4f4f4;
+    display: flex;
+    max-width: 480px;
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.div-2 {
+    background: linear-gradient(88deg, #465775 1.54%, #83a3db 168.22%);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-weight: 400;
+    text-align: center;
+    padding: 50px 73px;
+}
+
+.div-3 {
+    color: #e1e1e1;
+    letter-spacing: 4.32px;
+    font:
+        72px/150% Abel;
+}
+
+.div-4 {
+    background-color: #b22a2a;
+    margin-top: 40px;
+    color: #fff;
+    letter-spacing: 1.1px;
+    justify-content: center;
+    padding: 28px 25px;
+    font: 22px Roboto;
+}
+
+.div-5 {
+    color: #e7e7e7;
+    letter-spacing: 0.4px;
+    align-self: center;
+    margin-top: 20px;
+    font: 32px Roboto;
+}
+
+.div-6 {
+    background-color: #fff;
+    display: flex;
+    margin-top: 69px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+    text-align: center;
+    padding: 80px 20px 37px;
+}
+
+.div-7 {
+    max-width: 300px;
+    color: #000;
+    letter-spacing: 0.48px;
+    font: 24px Roboto;
+}
+
+.img {
+    aspect-ratio: 1.27;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+    align-self: stretch;
+    margin-top: 40px;
+}
+
+.div-8 {
+    background-color: #b22a2a;
+    margin-top: 62px;
+    width: 185px;
+    max-width: 100%;
+    color: #fff;
+    letter-spacing: 0.9px;
+    justify-content: center;
+    padding: 11px 46px;
+    font: 18px Roboto;
+}
+
+.div-9 {
+    color: #000;
+    text-align: center;
+    letter-spacing: 0.48px;
+    align-self: center;
+    margin-top: 73px;
+    font: 24px Roboto;
+    max-width: 240px;
+}
+
+.div-10 {
+    box-shadow: 2px 3px 4px 2px rgba(131, 65, 65, 0.25);
+    background-color: #fff;
+    display: flex;
+    margin-top: 62px;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    color: #000;
+    font-weight: 300;
+    padding: 51px 80px 32px 33px;
+}
+
+.div-11 {
+    letter-spacing: 1.3px;
+    font:
+        26px Roboto;
+}
+
+.div-12 {
+    letter-spacing: 1px;
+    margin-top: 23px;
+    font:
+        20px Roboto;
+
+    font-weight: 300;
+    color: #5e5e5e;
+}
+
+.div-13 {
+    color: #b22a2a;
+    letter-spacing: 1.2px;
+    margin-top: 36px;
+    font:
+        700 24px Roboto;
+}
+
+.div-14 {
+    box-shadow: 2px 3px 4px 2px rgba(131, 65, 65, 0.25);
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    color: #000;
+    font-weight: 300;
+    padding: 43px 71px 43px 32px;
+}
+
+.div-15 {
+    letter-spacing: 1.3px;
+    font:
+        26px Roboto;
+}
+
+.div-16 {
+    letter-spacing: 1px;
+    margin-top: 31px;
+    font:
+        20px Roboto;
+    font-weight: 300;
+    color: #5e5e5e;
+}
+
+.div-17 {
+    color: #b22a2a;
+    letter-spacing: 1.2px;
+    margin-top: 34px;
+    font:
+        700 24px Roboto;
+}
+
+.div-18 {
+    box-shadow: 2px 3px 4px 2px rgba(131, 65, 65, 0.25);
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    color: #000;
+    font-weight: 300;
+    padding: 51px 80px 21px 33px;
+}
+
+.div-19 {
+    letter-spacing: 1.3px;
+    font:
+        26px Roboto;
+}
+
+.div-20 {
+    letter-spacing: 1px;
+    margin-top: 25px;
+    font:
+        20px Roboto;
+
+    font-weight: 300;
+    color: #5e5e5e;
+}
+
+.div-21 {
+    color: #b22a2a;
+    letter-spacing: 1.2px;
+    margin-top: 38px;
+    font:
+        700 24px Roboto;
+}
+
+.div-22 {
+    box-shadow: 2px 3px 4px 2px rgba(131, 65, 65, 0.25);
+    background-color: #b22a2a;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    color: #fff;
+    padding: 34px 80px 65px 33px;
+}
+
+.div-23 {
+    letter-spacing: 1.4px;
+    font:
+        700 28px Roboto;
+}
+
+.div-24 {
+    letter-spacing: 1.1px;
+    margin-top: 27px;
+    font:
+        500 22px Roboto;
+}
+
+.div-25 {
+    display: flex;
+    flex-direction: column;
+    fill: #d9d9d9;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    aspect-ratio: 0.47;
+    margin-top: 68px;
+    width: 100%;
+    align-items: center;
+    font-size: 24px;
+    color: #000;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 1.2px;
+    padding: 80px 39px;
+}
+
+.img-2 {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.div-26 {
+    position: relative;
+    letter-spacing: 1.3px;
+    align-self: stretch;
+    margin-top: 42px;
+    font:
+        700 26px Roboto;
+}
+
+.div-27 {
+    position: relative;
+    font-family: Roboto, sans-serif;
+    align-self: stretch;
+    margin-top: 91px;
+}
+
+.div-28 {
+    position: relative;
+    color: #b22a2a;
+    font-family: Roboto, sans-serif;
+    text-decoration-line: underline;
+    margin-top: 14px;
+}
+
+.img-3 {
+    aspect-ratio: 3.33;
+    object-fit: auto;
+    object-position: center;
+    width: 161px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 74px;
+    max-width: 100%;
+    position: relative;
+}
+
+.img-4 {
+    aspect-ratio: 2.94;
+    object-fit: auto;
+    object-position: center;
+    width: 143px;
+    fill: #0c0d10;
+    stroke-width: 1px;
+    stroke: #a6a6a6;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 19px;
+    max-width: 100%;
+    position: relative;
+}
+
+.div-29 {
+    position: relative;
+    color: #465775;
+    font-family: Roboto, sans-serif;
+    text-decoration-line: underline;
+    width: 246px;
+    margin: 56px 0 49px;
+}
+
+.div-30 {
+    color: #000;
+    text-align: center;
+    letter-spacing: 1.3px;
+    align-self: center;
+    margin-top: 75px;
+    font:
+        700 26px Roboto;
+}
+
+.div-31 {
+    border-radius: 3px;
+    background-color: #5c773a;
+    align-self: center;
+    margin-top: 36px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.9px;
+    justify-content: center;
+    padding: 20px 46px;
+    font:
+        500 18px Roboto;
+}
+
+.div-32 {
+    background-color: #1e312f;
+    display: flex;
+    margin-top: 87px;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    padding: 76px 80px 76px 31px;
+}
+
+.div-33 {
+    font-family: Roboto, sans-serif;
+}
+
+.div-34 {
+    font-family: Roboto, sans-serif;
+    margin: 84px 0 110px;
+}
+
+.div-checkout {
+    background-color: #f4f4f4;
+    display: flex;
+    max-width: 480px;
+    width: 100%;
+    flex-direction: column;
+    font-weight: 300;
+    margin: 0 auto;
+}
+
+.div-checkout-2 {
+    background-color: #fff;
+    display: flex;
+    margin-top: 85px;
+    width: 100%;
+    flex-direction: column;
+    padding: 80px 0 30px;
+}
+
+.div-checkout-3 {
+    display: flex;
+    margin-top: 6px;
+    width: 100%;
+    flex-direction: column;
+    font-size: 16px;
+    color: #a5a5a5;
+    letter-spacing: 0.8px;
+    padding: 0 24px;
+}
+
+.div-checkout-4 {
+    color: #000;
+    letter-spacing: 1.3px;
+    font-weight: 800;
+    font-size: 26px;
+}
+
+.div-checkout-5 {
+    color: #000;
+    font-family: Roboto;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.div-checkout-input {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Roboto;
+    border-radius: 10px;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 2px;
+    margin: 10px 0;
+    align-items: start;
+    white-space: nowrap;
+    justify-content: center;
+    padding: 16px 13px;
+}
+
+.div-checkout-input:focus,
+.div-checkout-input-filled {
+    outline: none;
+    border-color: rgba(178, 42, 42, 1);
+    transition: border-color .5s linear 0s;
+}
+
+.comment-area {
+    padding: 10px 13px 80px;
+}
+
+.div-checkout-11 {
+    border-color: rgba(204, 204, 204, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #ccc;
+    min-height: 1px;
+    margin-top: 69px;
+    width: 100%;
+}
+
+.div-checkout-12 {
+    background-color: #fff3f3;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    color: #000;
+    padding: 11px 24px 35px;
+}
+
+.img {
+    aspect-ratio: 0.9;
+    object-fit: auto;
+    object-position: center;
+    width: 228px;
+    align-self: center;
+    max-width: 100%;
+}
+
+.div-checkout-13 {
+    letter-spacing: 1.1px;
+    margin-top: 24px;
+    font:
+        22px Roboto;
+}
+
+.div-checkout-14 {
+    letter-spacing: 0.9px;
+    margin-top: 14px;
+    font:
+        18px Roboto;
+}
+
+.div-checkout-15 {
+    letter-spacing: 1.3px;
+    margin-top: 31px;
+    font:
+        26px Roboto;
+}
+
+.div-checkout-16 {
+    border-color: rgba(204, 204, 204, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #ccc;
+    min-height: 2px;
+    width: 100%;
+}
+
+.div-checkout-17 {
+    display: flex;
+    margin-top: 47px;
+    width: 100%;
+    flex-direction: column;
+    font-weight: 500;
+    padding: 0 32px;
+}
+
+.div-checkout-18 {
+    display: flex;
+    gap: 20px;
+    font-size: 22px;
+    color: #000;
+    white-space: nowrap;
+    letter-spacing: 1.1px;
+}
+
+.div-checkout-19 {
+    font-family: Roboto;
+    flex-grow: 1;
+    margin: auto 0;
+}
+
+.div-checkout-redbox {
+    background-color: #b22a2a;
+    color: #fff;
+    padding: 16px;
+}
+
+.div-checkout-21 {
+    text-align: center;
+    font-family: Roboto;
+    margin: auto 0;
+}
+
+.div-checkout-23 {
+    color: rgba(0, 0, 0, 0.75);
+    letter-spacing: 1.2px;
+    margin: 54px 21px 0 0;
+    font:
+        24px Roboto;
+}
+
+.div-checkout-24 {
+    color: #000;
+    letter-spacing: 1.6px;
+    margin-top: 23px;
+    font:
+        32px Roboto;
+}
+
+.div-checkout-25 {
+    color: rgba(0, 0, 0, 0.75);
+    gap: 20px;
+    letter-spacing: 0.9px;
+    font-size: 14px;
+}
+
+.div-checkout-25-link {
+    color: #26a7de;
+    text-decoration-line: underline;
+}
+
+.div-checkout-26 {
+    background-color: #b22a2a;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1.1px;
+    margin: 60px 0 16px;
+    padding: 29px 58px;
+    font-size: 22px;
+}
+
+.div-checkout-26-disabled {
+    color: #ccc;
+    background-color: #b22a2ab9;
+}
