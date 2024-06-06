@@ -22,7 +22,7 @@ body {
     flex-direction: column;
     font-weight: 400;
     text-align: center;
-    padding: 50px 73px;
+    padding: 25px;
 }
 
 .div-3 {
@@ -34,7 +34,7 @@ body {
 
 .div-4 {
     background-color: #b22a2a;
-    margin-top: 40px;
+    margin: 40px 35px 0;
     color: #fff;
     letter-spacing: 1.1px;
     justify-content: center;
@@ -239,7 +239,6 @@ body {
     overflow: hidden;
     position: relative;
     display: flex;
-    aspect-ratio: 0.47;
     margin-top: 68px;
     width: 100%;
     align-items: center;
@@ -249,6 +248,10 @@ body {
     text-align: center;
     letter-spacing: 1.2px;
     padding: 80px 39px;
+}
+
+.div-25 .img-2 {
+    aspect-ratio: 0.47;
 }
 
 .img-2 {
@@ -358,13 +361,8 @@ body {
     padding: 76px 80px 76px 31px;
 }
 
-.div-33 {
-    font-family: Roboto, sans-serif;
-}
-
 .div-34 {
-    font-family: Roboto, sans-serif;
-    margin: 84px 0 110px;
+    margin: 40px 0 110px;
 }
 
 .div-checkout {
@@ -515,10 +513,11 @@ body {
 }
 
 .div-checkout-19 {
-    font-family: Roboto;
     flex-grow: 1;
     margin: auto 0;
+    overflow: scroll;
 }
+
 
 .div-checkout-redbox {
     background-color: #b22a2a;

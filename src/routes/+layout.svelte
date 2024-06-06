@@ -8,15 +8,21 @@
     import "@fontsource/roboto/900.css";
     import "@fontsource/abel";
 
-    import { onMount } from "svelte";
     import { get } from "svelte/store";
-    import { localLanguage } from "./../store";
+    import { languageLocale } from "./../store";
+    import { langaugeSet } from "./../store";
     import { t } from "$lib/translations";
     import { invalidateAll } from "$app/navigation";
+    import getUserLocale from "get-user-locale";
 
-    
-    $: languageSelected = get(localLanguage);
-    localLanguage.set(navigator.language);
+
+    const userLocale = getUserLocale({
+        fallbackLocale: "ru-RU",
+    });
+
+    if (get(langaugeSet) == false) languageLocale.set(userLocale);
+
+    $: languageSelected = get(languageLocale);
 
     const langaugeOptions = [
         { id: "ru-RU", value: "Русский" },
@@ -24,7 +30,7 @@
         { id: "kk-KZ", value: "Қазақша" },
     ];
     const changeLanguage = () => {
-        localLanguage.set(languageSelected);
+        languageLocale.set(languageSelected);
         invalidateAll();
     };
 </script>
@@ -32,9 +38,7 @@
 <div class="div">
     <div class="div-2">
         <div class="div-3">KIRY.KZ</div>
-        <a href="/checkout#new-order">
-            <div class="div-4">{$t("main.buy")}</div>
-        </a>
+        <a class="div-4" href="/checkout#new-order">{$t("main.buy")} </a>
         <div class="div-5">
             <a href="tel:+77050123456">+7 705 0123456</a>
         </div>
